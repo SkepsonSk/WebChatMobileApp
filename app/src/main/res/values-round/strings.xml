@@ -1,0 +1,4 @@
+<resources>
+    <string name="no_internet_conn_err"> Brak połączenia z siecią. </string>
+    <string name="no_username_err"> Nie podano lub błędna nazwa użytkownika.</string>
+</resources>

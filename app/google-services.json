@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "146093056312",
+    "firebase_url": "https://chat-app-f2053.firebaseio.com",
+    "project_id": "chat-app-f2053",
+    "storage_bucket": "chat-app-f2053.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:146093056312:android:0570bd4c487637a13361cd",
+        "android_client_info": {
+          "package_name": "pl.jakub.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "146093056312-6tim35hoafb7lkur395rqni8cksvmfn7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSFUUgTSlhNiVCF1PLrPG9WXarxF3ePgU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "146093056312-6tim35hoafb7lkur395rqni8cksvmfn7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
