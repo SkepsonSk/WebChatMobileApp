@@ -172,7 +172,7 @@ public class ChatActivity extends AppCompatActivity {
     @Override
     public void onBackPressed() {
 
-        AsyncRequest leaveReq = new PutRequest("http://Chat-env.eba-afmawu2f.eu-central-1.elasticbeanstalk.com/api/v1/room/leave/"
+        AsyncRequest leaveReq = new PutRequest("http://<URL>/api/v1/room/leave/"
                 + userId + "/" + roomId, "");
 
         // Leaving the room.
@@ -204,7 +204,7 @@ public class ChatActivity extends AppCompatActivity {
             String message = messageEditText.getText().toString();
 
             // Post the message to Web Chat Server.
-            PostRequest req = new PostRequest("http://Chat-env.eba-afmawu2f.eu-central-1.elasticbeanstalk.com/api/v1/message",
+            PostRequest req = new PostRequest("http://<URL>/api/v1/message",
                     String.format("{\"sender\": \"%s\", \"content\": \"%s\"}", userId, message));
             req.setOnResponse( reqRes ->  {
 
