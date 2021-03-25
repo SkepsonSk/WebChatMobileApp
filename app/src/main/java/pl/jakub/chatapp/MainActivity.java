@@ -100,7 +100,7 @@ public class MainActivity extends AppCompatActivity {
     // Download all the rooms from the Web Chat Server.
     private void initializeRooms() {
 
-        AsyncRequest roomsReq = new GetRequest("http://Chat-env.eba-afmawu2f.eu-central-1.elasticbeanstalk.com/api/v1/room");
+        AsyncRequest roomsReq = new GetRequest("http://<URL>/api/v1/room");
         roomsReq.setOnResponse( roomsRes -> {
 
             String id, name;
